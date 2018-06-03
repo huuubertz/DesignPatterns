@@ -29,6 +29,10 @@ public:
 		return _m_card->get_password();
 	}
 
+	int get_ID() {
+		return _m_card->get_ID();
+	}
+
 	virtual Card* create_individual_account_with_wrapp() = 0;
 };
 
